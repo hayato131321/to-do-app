@@ -1,12 +1,39 @@
-# React + Vite
+# To Do アプリ（React学習用）
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+現在開発中の To Do リストアプリです。  
+Reactの基本文法や状態管理の理解を深めるために制作しています。
 
-Currently, two official plugins are available:
+チュートリアルの内容をベースにしていますが、ただの写経ではなく、独自の実装を含みつつ、理解を伴って構築しています。  
+このアプリの制作を通じて、**状態リフトアップ・条件付きレンダー・イベント処理・コンポーネント分割**などReactの主要な概念を実践的に学びました。
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+##  使用技術
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- React（Vite + JSX）
+- JavaScript
+- HTML / CSS
+
+---
+
+## 1 ローカル環境での起動手順
+まずは、GitHubからリポジトリをクローンします。
+git clone https://github.com/hayato131321/to-do-app.git
+cd to-do-app
+
+2. パッケージのインストール
+npm install を実行して、必要な依存パッケージをすべてインストールします。
+npm install
+
+3. 開発サーバーの起動
+npm run dev を実行すると、Vite のローカル開発サーバーが立ち上がります。
+npm run dev
+
+4. ブラウザでアクセス
+起動後、以下のURLにアクセスするとアプリケーションを確認できます：
+
+http://localhost:5173
+
+※ Node.js および npm が事前にインストールされている必要があります。
+未インストールの場合は、Node.js公式サイト よりインストールしてください。
+
